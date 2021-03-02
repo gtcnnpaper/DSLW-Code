@@ -19,4 +19,23 @@ Contains code used for source localization experiments
 * /training_config → configuration file for experiments in ./training_pipeline.py
 
 # /prediction
-*
+Contains code used for experiments with MOLENE and NOAA datasets for timeseries forecasting
+* /train_utils → handy functions used throughout the experiments
+* /pred_utils → handy functions to deal with the NOAA and MOLENE datasets
+* /evaluation → handy functions for evaluating timeseries predictions
+* /MOLENE → dataset + code for processing, analyzing, training and evaluating the models
+* /NOAA → dataset + code for processing, analyzing, training and evaluating the models
+
+# /earthquakes
+Contains the material for the earthquake study.
+* /code/regions/precursor_based/OriginalProblem → multiclass classification for earthquakes (contains code to crawl, label, clean, and process the earthquake data)
+* /code/regions/percursor_based/OAA → binary problem one Against all
+* /quakes_util → useful functions used in the experiments with earthquakes, such as radius- based metrics.
+
+# /datasets
+Contains the synthetic data for the source localization experiment. Can be easily recreated using the python script in the /data_generation folder.
+
+# architectures
+Contains code defining the different architectures (LSTM, GRNN,GTCNN)
+
+
