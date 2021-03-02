@@ -14,7 +14,9 @@ Parts of this code are taken verbatim from the GNNs library available [here](htt
 * /src_loc_utils → re-adaptation of functions from [GNN_repository](https://github.com/alelab-upenn/graph-neural-networks)
 
 # /training
+Contains code used for source localization experiments
 * /regularization_experiments → grid search for regularization experiments
 * /training_config → configuration file for experiments in ./training_pipeline.py
 
-
+# /prediction
+*
