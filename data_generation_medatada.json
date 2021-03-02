@@ -1,0 +1,27 @@
+{
+  "sizes": [
+    20,
+    20,
+    20,
+    20,
+    20
+  ],
+  "in_prob": 0.8,
+  "between_prob": 0.1,
+  "t_max": 25,
+  "n_nodes": 100,
+  "n_communities": 5,
+  "n_graphs": 5,
+  "n_splits_per_graph": 5,
+  "trn_val_tst_split": [
+    0.8,
+    0.2,
+    0
+  ],
+  "observation_windows": [
+    1,
+    2,
+    3
+  ],
+  "allow_overlap_between_samples": false
+}
