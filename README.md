@@ -35,7 +35,7 @@ Contains the material for the earthquake study.
 # /datasets
 Contains the synthetic data for the source localization experiment. Can be easily recreated using the python script in the /data_generation folder.
 
-# architectures
+# /architectures
 Contains code defining the different architectures (LSTM, GRNN,GTCNN)
 
 
